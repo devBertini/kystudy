@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KyStudy — Support</title>
+<meta name="description" content="KyStudy support and FAQ. On-device AI, formats, subscriptions, privacy.">
+<style>
+  :root{--amber:#FF8820;--blue:#5858C0;--text:#1d1d22;--muted:#6b6b73;--bg:#f6f6f9;--line:#e6e6ec}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+  a{color:var(--amber);text-decoration:none}a:hover{text-decoration:underline}
+  .hero{background:linear-gradient(135deg,var(--blue),var(--amber));color:#fff;padding:48px 20px 40px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:26px}
+  .brand svg{width:34px;height:34px}
+  .hero h1{margin:18px 0 6px;font-size:30px;font-weight:800}.hero p{margin:0;opacity:.92}
+  main{max-width:760px;margin:-22px auto 60px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+  .toggle{display:flex;gap:8px;margin:0 0 18px}
+  .toggle button{border:1px solid var(--line);background:#fff;color:var(--text);padding:6px 14px;border-radius:999px;font-size:14px;cursor:pointer}
+  .toggle button.active{background:var(--amber);color:#fff;border-color:var(--amber)}
+  .contact{background:rgba(255,136,32,.10);border:1px solid rgba(255,136,32,.25);border-radius:14px;padding:16px 18px;margin:0 0 22px}
+  .contact a{font-weight:700}
+  h2{font-size:18px;margin:22px 0 6px}
+  details{border:1px solid var(--line);border-radius:12px;padding:4px 14px;margin:10px 0;background:#fff}
+  summary{cursor:pointer;font-weight:600;padding:10px 0}
+  details p{margin:0 0 12px}
+  footer{max-width:760px;margin:0 auto 50px;padding:0 28px;color:var(--muted);font-size:13px;text-align:center}
+  .lang[hidden]{display:none}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg>
+      KyStudy
+    </div>
+    <h1>Support</h1>
+    <p>We're here to help.</p>
+  </div>
+</header>
+
+<main>
+  <div class="toggle">
+    <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button id="btn-pt" onclick="setLang('pt')">Português</button>
+  </div>
+
+  <div class="contact">
+    📧 <strong>Contact:</strong> <a href="mailto:bertini.b@icloud.com">bertini.b@icloud.com</a>
+    — <span class="lang" id="resp-en">we usually reply within 48 hours.</span>
+    <span class="lang" id="resp-pt" hidden>normalmente respondemos em até 48 horas.</span>
+  </div>
+
+  <!-- ENGLISH -->
+  <section class="lang" id="lang-en">
+    <h2>Frequently asked questions</h2>
+
+    <details><summary>Where are my documents stored? Is my data private?</summary>
+      <p>Everything stays on your iPhone, protected by iOS file protection. There are no accounts, no
+         cloud of ours, no analytics and no tracking — your documents are never uploaded anywhere.
+         See the <a href="../privacy/">Privacy Policy</a>.</p></details>
+
+    <details><summary>Which AI runs on my device?</summary>
+      <p>KyStudy automatically uses the best of three on-device tiers: <strong>Apple Intelligence</strong>
+         on supported devices (the fastest and deepest results); an <strong>enhanced downloadable model</strong>
+         (about 1 GB, free) on any other iPhone; and a <strong>basic mode</strong> with extractive summaries
+         and key concepts that works everywhere with zero download. The app always shows which tier is
+         active.</p></details>
+
+    <details><summary>Is the AI model download free?</summary>
+      <p>Yes. The enhanced on-device model is a free, one-time download and is completely independent of
+         Pro — it is a technical capability, not a paid feature.</p></details>
+
+    <details><summary>Why is generated content in my language? How do I change it?</summary>
+      <p>By default, KyStudy answers in the language of the document it is working on. You can force a
+         specific language in <strong>Settings → AI output language</strong>.</p></details>
+
+    <details><summary>What does the free version include?</summary>
+      <p>Unlimited import and library, unlimited basic extractive summaries, 3 per day each of AI
+         summaries, flashcards, quizzes, Q&amp;A, explanations and translation, 1 mind map and 1 study
+         plan per week, and documents up to 20 pages. Pro removes all limits and adds larger documents,
+         PPTX presentations and reports.</p></details>
+
+    <details><summary>How do I restore my purchase?</summary>
+      <p>Open <strong>Settings → Restore purchases</strong> inside the app. Purchases and subscriptions
+         are tied to your Apple ID, so they restore on any device signed in with the same account.</p></details>
+
+    <details><summary>How do I cancel my subscription?</summary>
+      <p>Subscriptions are managed by Apple: open the <strong>App Store</strong> → tap your photo →
+         <strong>Subscriptions</strong> → KyStudy → Cancel. Your access stays active until the end of the
+         current period.</p></details>
+
+    <details><summary>Which document formats are supported?</summary>
+      <p>PDF, Word (DOCX), TXT, RTF and EPUB — plus scanned documents and photos via the camera with
+         built-in OCR.</p></details>
+
+    <details><summary>Does it work offline?</summary>
+      <p>Yes, fully. All processing happens on your device. The only thing that ever needs a network
+         connection is the optional one-time AI model download.</p></details>
+
+    <details><summary>Can the AI make mistakes?</summary>
+      <p>Yes. Like any AI, it can produce errors or omissions. Generated material is a study aid, not a
+         replacement for the original document — always check important facts against the source.</p></details>
+  </section>
+
+  <!-- PORTUGUÊS -->
+  <section class="lang" id="lang-pt" hidden>
+    <h2>Perguntas frequentes</h2>
+
+    <details><summary>Onde meus documentos ficam? Meus dados são privados?</summary>
+      <p>Tudo fica no seu iPhone, protegido pela proteção de arquivos do iOS. Não há contas, nuvem
+         nossa, analytics nem rastreamento — seus documentos nunca são enviados a lugar nenhum.
+         Veja a <a href="../privacy/">Política de Privacidade</a>.</p></details>
+
+    <details><summary>Qual IA roda no meu aparelho?</summary>
+      <p>O KyStudy usa automaticamente o melhor de três níveis, todos no aparelho: <strong>Apple
+         Intelligence</strong> em aparelhos compatíveis (resultados mais rápidos e profundos); um
+         <strong>modelo aprimorado para download</strong> (cerca de 1 GB, gratuito) em qualquer outro
+         iPhone; e um <strong>modo básico</strong> com resumos extrativos e conceitos-chave que funciona
+         em todo aparelho, sem download. O app sempre mostra qual nível está ativo.</p></details>
+
+    <details><summary>O download do modelo de IA é gratuito?</summary>
+      <p>Sim. O modelo aprimorado é um download único e gratuito, totalmente independente do Pro — é uma
+         capacidade técnica, não um recurso pago.</p></details>
+
+    <details><summary>Por que o conteúdo gerado vem no meu idioma? Como mudo isso?</summary>
+      <p>Por padrão, o KyStudy responde no idioma do documento em questão. Você pode forçar um idioma
+         específico em <strong>Ajustes → Idioma de saída da IA</strong>.</p></details>
+
+    <details><summary>O que a versão gratuita inclui?</summary>
+      <p>Importação e biblioteca ilimitadas, resumos extrativos básicos ilimitados, 3 por dia de cada um:
+         resumos com IA, flashcards, quizzes, perguntas e respostas, explicações e tradução, 1 mapa mental
+         e 1 plano de estudo por semana, e documentos de até 20 páginas. O Pro remove todos os limites e
+         adiciona documentos maiores, apresentações PPTX e relatórios.</p></details>
+
+    <details><summary>Como restauro minha compra?</summary>
+      <p>Abra <strong>Ajustes → Restaurar compras</strong> dentro do app. Compras e assinaturas ficam
+         vinculadas ao seu Apple ID e são restauradas em qualquer aparelho com a mesma conta.</p></details>
+
+    <details><summary>Como cancelo a assinatura?</summary>
+      <p>As assinaturas são gerenciadas pela Apple: abra a <strong>App Store</strong> → toque na sua foto →
+         <strong>Assinaturas</strong> → KyStudy → Cancelar. O acesso continua até o fim do período atual.</p></details>
+
+    <details><summary>Quais formatos de documento são aceitos?</summary>
+      <p>PDF, Word (DOCX), TXT, RTF e EPUB — além de documentos digitalizados e fotos pela câmera, com
+         OCR integrado.</p></details>
+
+    <details><summary>Funciona offline?</summary>
+      <p>Sim, totalmente. Todo o processamento acontece no seu aparelho. A única coisa que precisa de
+         internet é o download opcional e único do modelo de IA.</p></details>
+
+    <details><summary>A IA pode errar?</summary>
+      <p>Sim. Como qualquer IA, ela pode produzir erros ou omissões. O material gerado é um auxílio aos
+         estudos, não um substituto do documento original — sempre confira informações importantes na
+         fonte.</p></details>
+  </section>
+</main>
+
+<footer>© 2026 KyStudy · <a href="../">Home</a> · <a href="../privacy/">Privacy</a></footer>
+
+<script>
+  function setLang(l){
+    document.querySelectorAll('#lang-en,#resp-en').forEach(e=>e.hidden=(l!=='en'));
+    document.querySelectorAll('#lang-pt,#resp-pt').forEach(e=>e.hidden=(l!=='pt'));
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+    document.getElementById('btn-pt').classList.toggle('active', l==='pt');
+    document.documentElement.lang = l==='pt' ? 'pt-BR' : 'en';
+  }
+  if((navigator.language||'').toLowerCase().startsWith('pt')) setLang('pt');
+</script>
+</body>
+</html>
